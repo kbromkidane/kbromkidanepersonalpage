@@ -1,0 +1,135 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+html,
+body {
+  margin: 0;
+  height:100%;
+   background: linear-gradient(to right,#000,#0575e6);
+  text-align: center;
+}
+.box-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.nav ul{
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  color:#333;
+  border:2px solid ;
+  background-color:black;
+  position:fixed;
+  top:75px;
+  width:100%;
+}
+li{
+  float:left;
+  border-right:1px #bbb;
+  list-style-type:none;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding:10px 12px;
+  text-decoration:none;
+  list
+  
+    
+}
+li a:hover{
+  background-color:green;
+}
+.active{
+  background-color:#04AA6D;
+}
+li:last-child{
+  border-right:none;
+}
+img{
+   display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(logo.svg);
+  background-size: 100px 82px;
+  float:left;
+  shape-outside: circle(50%);
+}
+iframe{
+  width:100%;
+}
+h1{
+color: white;
+font-size: 32px;
+font-weight: bold;
+margin-top: 2px;
+margin-bottom: 25px;
+text-align:left;
+background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#333));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 1px 1px #4d4d4d;
+  font: 'LeagueGothicRegular';
+}
+p{
+  margin:10px;
+  padding-left:200px;
+  padding-right:200px;
+  border:0px solid #ccc;
+  text-align:justify;
+  color:white;
+}
+footer{
+  background-color: #121315;
+  font-size: 14px;
+  padding: 3px;
+  color: white;
+  display:block;
+  position:fixed;
+  width:100%;
+  left:0;
+  bottom:0;
+  list-style-type: none;
+  display:inline;
+}
+.footer-left p{
+  horizontal-align:right;
+  text-align: center;
+}
+.container {
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  float:right;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
